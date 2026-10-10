@@ -1,0 +1,85 @@
+export const projects = [
+  {
+    id: "alamein-university",
+    name: "Alamein University",
+    sub: "Exterior Finishing Works – Faculty of Dentistry Building",
+    client: "Alamein International University (AIU)",
+    location: "New Alamein City",
+    type: "Facade & exterior finishing",
+    images: ["alamein1", "alamein2", "alamein3"],
+    summary:
+      "Execution and supervision of all exterior finishing and facade cladding works for the faculty building.",
+    scope: [
+      "Execution and supervision of exterior finishing and facade cladding to the highest engineering and quality standards.",
+      "Erection and management of metal scaffolding, including safety and protection measures for work at heights.",
+      "Installation of facade cladding and coordination of wall openings and windows per approved architectural designs.",
+    ],
+  },
+  {
+    id: "al-jalala-university",
+    name: "Al-Jalala University",
+    sub: "Exterior Finishing & Mechanical Installation Works",
+    location: "New Galala City",
+    type: "Cladding & mechanical fixing",
+    images: ["galala1", "galala2", "galala3"],
+    summary: "Anchors, mechanical fixing systems and high-precision exterior cladding assembly.",
+    scope: [
+      "Supply and installation of anchors and mechanical fixing systems for facades.",
+      "Exterior cladding and high-precision assembly in compliance with engineering specifications.",
+      "Preparation and execution of interior and exterior finishes and pathways.",
+    ],
+  },
+  {
+    id: "soul-north-coast",
+    name: "SOUL Project – North Coast",
+    sub: "Structural Concrete & Framework Execution – SOUL Luxury Beach Resort",
+    client: "Emaar Misr",
+    location: "KM 180, Alexandria – Marsa Matrouh Road, North Coast",
+    type: "Luxury villas & amenities",
+    images: ["soul1", "soul2", "soul3"],
+    summary:
+      "Reinforced concrete foundations, wide-span slabs and complex formwork for luxury villas.",
+    scope: [
+      "Reinforced concrete raft and strip foundations and wide-span floor slabs for villas.",
+      "Casting and forming of columns, shear walls and complex multi-level slab formwork.",
+      "High-precision axis layout and elevation control using Total Station equipment.",
+      "Timber and steel formwork systems for smooth, specification-compliant concrete.",
+      "Strict adherence to Emaar Misr's HSE code; concrete testing and rebar checks before every pour.",
+    ],
+  },
+  {
+    id: "french-university",
+    name: "French University – El Shorouk City",
+    sub: "Comprehensive Construction Works, Masonry & Mechanically-Fixed Hashemi Stone Cladding",
+    location: "El Shorouk City, Greater Cairo",
+    type: "Structure, masonry & cladding",
+    images: ["french1", "french2", "french3"],
+    summary:
+      "Structure, masonry and mechanically-fixed Hashemi stone cladding with Rockwool insulation.",
+    scope: [
+      "Supply and handling of formwork timber, equipment and materials per project schedule.",
+      "Execution and engineering supervision of reinforced concrete and structural frameworks.",
+      "Masonry blockwork, internal work platforms, scratch coats and surface preparation.",
+      "Mechanically-fixed Hashemi stone cladding with Rockwool thermal insulation behind the facade.",
+    ],
+  },
+  {
+    id: "al-burouj-compound",
+    name: "Al Burouj Compound – El Shorouk City",
+    sub: "Structural Concrete & Foundation Works",
+    client: "Imkan Misr",
+    partner: "Main contractor: Innovo Construction",
+    location: "El Shorouk City — Cairo / Ismailia Desert Road",
+    type: "Residential compound",
+    images: ["burouj1", "burouj2", "burouj3"],
+    summary:
+      "Foundations, footings, tie beams, columns and slab formwork for residential buildings.",
+    scope: [
+      "Reinforced concrete foundations, footings, tie beams and columns.",
+      "Timber formwork and metal scaffolding for residential slabs per engineering drawings.",
+      "Rebar installation, stirrup alignment and axis verification before pouring.",
+      "Coordination with the consultant and main contractor; supervision of ready-mix pours.",
+      "Strict PPE and site-safety compliance.",
+    ],
+  },
+];

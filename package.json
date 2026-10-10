@@ -1,0 +1,42 @@
+{
+  "name": "elhalfawy-website",
+  "private": true,
+  "version": "2.0.0",
+  "description": "El Halfawy — Architecture & General Contracting corporate website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "images": "node scripts/optimize-images.mjs",
+    "lint:build": "vite build --logLevel warn",
+    "lint": "eslint src scripts",
+    "build:browser-router": "VITE_ROUTER=browser vite build"
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "aos": "^2.3.4",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.53.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^17.13.0",
+    "postcss": "^8.5.29",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.21",
+    "vite-plugin-compression2": "^2.5.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

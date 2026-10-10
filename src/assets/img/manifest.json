@@ -1,0 +1,382 @@
+{
+ "alamein1": {
+  "width": 310,
+  "height": 381,
+  "widths": [
+   310
+  ]
+ },
+ "alamein2": {
+  "width": 310,
+  "height": 379,
+  "widths": [
+   310
+  ]
+ },
+ "alamein3": {
+  "width": 272,
+  "height": 373,
+  "widths": [
+   272
+  ]
+ },
+ "bp-light": {
+  "width": 1534,
+  "height": 1108,
+  "widths": [
+   1534
+  ],
+  "single": true
+ },
+ "burouj1": {
+  "width": 640,
+  "height": 480,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "burouj2": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "burouj3": {
+  "width": 640,
+  "height": 480,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "clients/aiu-color": {
+  "width": 681,
+  "height": 260,
+  "widths": [
+   681
+  ],
+  "single": true
+ },
+ "clients/aiu": {
+  "width": 681,
+  "height": 260,
+  "widths": [
+   681
+  ],
+  "single": true
+ },
+ "clients/emaar-color": {
+  "width": 327,
+  "height": 73,
+  "widths": [
+   327
+  ],
+  "single": true
+ },
+ "clients/emaar": {
+  "width": 327,
+  "height": 73,
+  "widths": [
+   327
+  ],
+  "single": true
+ },
+ "clients/imkan": {
+  "width": 402,
+  "height": 150,
+  "widths": [
+   402
+  ],
+  "single": true
+ },
+ "clients/innovo": {
+  "width": 250,
+  "height": 51,
+  "widths": [
+   250
+  ],
+  "single": true
+ },
+ "french1": {
+  "width": 640,
+  "height": 480,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "french2": {
+  "width": 640,
+  "height": 480,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "french3": {
+  "width": 640,
+  "height": 480,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "galala1": {
+  "width": 660,
+  "height": 627,
+  "widths": [
+   480,
+   660
+  ]
+ },
+ "galala2": {
+  "width": 660,
+  "height": 497,
+  "widths": [
+   480,
+   660
+  ]
+ },
+ "galala3": {
+  "width": 792,
+  "height": 638,
+  "widths": [
+   480,
+   792
+  ]
+ },
+ "hats": {
+  "width": 1400,
+  "height": 922,
+  "widths": [
+   480,
+   800,
+   1200,
+   1400
+  ]
+ },
+ "hero": {
+  "width": 1120,
+  "height": 630,
+  "widths": [
+   480,
+   800,
+   1120
+  ]
+ },
+ "industry1": {
+  "width": 768,
+  "height": 576,
+  "widths": [
+   480,
+   768
+  ]
+ },
+ "industry2": {
+  "width": 578,
+  "height": 768,
+  "widths": [
+   480,
+   578
+  ]
+ },
+ "interior": {
+  "width": 768,
+  "height": 578,
+  "widths": [
+   480,
+   768
+  ]
+ },
+ "logo-mark": {
+  "width": 311,
+  "height": 355,
+  "widths": [
+   311
+  ],
+  "single": true
+ },
+ "logo-white": {
+  "width": 1000,
+  "height": 355,
+  "widths": [
+   1000
+  ],
+  "single": true
+ },
+ "message": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "mission": {
+  "width": 660,
+  "height": 758,
+  "widths": [
+   480,
+   660
+  ]
+ },
+ "overview1": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "overview2": {
+  "width": 482,
+  "height": 640,
+  "widths": [
+   480,
+   482
+  ]
+ },
+ "plan": {
+  "width": 480,
+  "height": 640,
+  "widths": [
+   480
+  ]
+ },
+ "process1": {
+  "width": 482,
+  "height": 640,
+  "widths": [
+   480,
+   482
+  ]
+ },
+ "process2": {
+  "width": 480,
+  "height": 640,
+  "widths": [
+   480
+  ]
+ },
+ "process3": {
+  "width": 512,
+  "height": 384,
+  "widths": [
+   480,
+   512
+  ]
+ },
+ "process4": {
+  "width": 640,
+  "height": 360,
+  "widths": [
+   480,
+   640
+  ]
+ },
+ "rebar": {
+  "width": 432,
+  "height": 768,
+  "widths": [
+   432
+  ]
+ },
+ "soul1": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "soul2": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "soul3": {
+  "width": 1024,
+  "height": 576,
+  "widths": [
+   480,
+   800,
+   1024
+  ]
+ },
+ "survey": {
+  "width": 480,
+  "height": 640,
+  "widths": [
+   480
+  ]
+ },
+ "sus1": {
+  "width": 900,
+  "height": 1200,
+  "widths": [
+   480,
+   800,
+   900
+  ]
+ },
+ "sus2": {
+  "width": 480,
+  "height": 640,
+  "widths": [
+   480
+  ]
+ },
+ "team": {
+  "width": 768,
+  "height": 576,
+  "widths": [
+   480,
+   768
+  ]
+ },
+ "team2": {
+  "width": 624,
+  "height": 468,
+  "widths": [
+   480,
+   624
+  ]
+ },
+ "vision": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "why1": {
+  "width": 576,
+  "height": 768,
+  "widths": [
+   480,
+   576
+  ]
+ },
+ "why2": {
+  "width": 482,
+  "height": 640,
+  "widths": [
+   480,
+   482
+  ]
+ },
+ "why3": {
+  "width": 480,
+  "height": 640,
+  "widths": [
+   480
+  ]
+ }
+}

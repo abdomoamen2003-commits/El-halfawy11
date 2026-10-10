@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ base */
+@layer base {
+  body {
+    @apply bg-white text-teal-900 antialiased;
+    font-family: theme("fontFamily.sans");
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  /* visible keyboard focus (mouse users are unaffected) */
+  :focus-visible {
+    outline: 3px solid #ec9510;
+    outline-offset: 3px;
+  }
+}
+
+/* ------------------------------------------------------------ components */
+@layer components {
+  /* typography scale */
+  .t-hero { font-weight: 800; font-size: clamp(3.25rem, 9vw, 7rem); line-height: 1; letter-spacing: -0.045em; }
+  .t-h1 { font-weight: 800; font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1.02; letter-spacing: -0.035em; }
+  .t-h2 { font-weight: 800; font-size: clamp(2rem, 4.2vw, 3.25rem); line-height: 1.1; letter-spacing: -0.03em; }
+  .t-h3 { font-weight: 700; font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.2; letter-spacing: -0.015em; }
+  .t-h4 { font-weight: 700; font-size: 1.2rem; line-height: 1.25; }
+  .t-num { font-weight: 800; font-size: 3.5rem; line-height: 1; letter-spacing: -0.03em; }
+  .t-stat { font-weight: 800; font-size: clamp(3.5rem, 8vw, 5.5rem); line-height: 1; letter-spacing: -0.04em; }
+  .ink-on-dark { color: #fff; }
+  .ink-on-light { color: #0f4a5a; }
+
+  /* buttons */
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-xl border-2 border-accent px-7 py-3 font-semibold text-accent transition-all duration-300;
+  }
+  .btn-outline:hover { @apply bg-accent text-teal-900; }
+  .btn-outline svg { transition: transform 0.3s; }
+  .btn-outline:hover svg { transform: translate(4px); }
+
+  .btn-solid {
+    @apply inline-flex items-center gap-2 rounded-xl bg-brand px-6 py-3 font-bold text-teal-900 transition-colors;
+  }
+  .btn-solid:hover { @apply bg-white; }
+
+  /* cards: the 50 % teal fill used to sit on a live `backdrop-filter` blur, which is very expensive while scrolling.
+     The flat blended colour below looks the same on the teal sections and costs nothing. */
+  .card {
+    @apply rounded-3xl border-2 border-accent p-3;
+    background: #115a6c;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.5s;
+  }
+  .card:hover { transform: translateY(-8px); }
+  .card img {
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card:hover img { transform: scale(1.06); }
+  .card .imgbox { overflow: hidden; border-radius: 1rem; }
+  .on-light .card { background: #0f4a5af2; }
+
+  /* frosted panel (contact form, "why choose us"); blur is skipped on small screens */
+  .glass { background: #0a364180; }
+  @media (min-width: 768px) {
+    .glass { -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+  }
+
+  /* hero lettering + typewriter caret */
+  .char { display: inline-block; will-change: transform; }
+  .cursor {
+    display: inline-block; width: 3px; height: 0.9em; margin-left: 4px; background: #ec9510;
+    vertical-align: -0.1em; animation: blink 1s steps(1) infinite;
+  }
+
+  /* section backgrounds */
+  :root { --s: 2.25rem; }
+  .bp {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .bp-light {
+    background-image: url("../assets/img/bp-light.webp");
+    background-size: cover; background-position: center; background-repeat: no-repeat;
+  }
+
+  /* diagonal top edge with orange rule */
+  .slant {
+    position: relative;
+    clip-path: polygon(0 var(--s), 100% 0, 100% 100%, 0 100%);
+    margin-top: calc(var(--s) * -1);
+    padding-top: calc(5rem + var(--s)) !important;
+  }
+  .slant:before {
+    content: ""; position: absolute; left: 0; top: 0; width: 100%; height: var(--s); pointer-events: none;
+    background: linear-gradient(to bottom right, transparent 50%, #ec9510 50%, #ec9510 calc(50% + 4px), transparent calc(50% + 4px));
+  }
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+@keyframes fadeIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+@keyframes fadeI { from { opacity: 0.2; } to { opacity: 1; } }
